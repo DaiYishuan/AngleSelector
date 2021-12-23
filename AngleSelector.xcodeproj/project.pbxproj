@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91E233BF2742097D007C298E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E233BE2742097D007C298E /* AppDelegate.swift */; };
+		91E233C12742097D007C298E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E233C02742097D007C298E /* SceneDelegate.swift */; };
+		91E233C32742097D007C298E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E233C22742097D007C298E /* ViewController.swift */; };
+		91E233C62742097D007C298E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E233C42742097D007C298E /* Main.storyboard */; };
+		91E233C92742097D007C298E /* AngleSelector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91E233C72742097D007C298E /* AngleSelector.xcdatamodeld */; };
+		91E233CB27420980007C298E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E233CA27420980007C298E /* Assets.xcassets */; };
+		91E233CE27420980007C298E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E233CC27420980007C298E /* LaunchScreen.storyboard */; };
+		91E233D927420980007C298E /* AngleSelectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E233D827420980007C298E /* AngleSelectorTests.swift */; };
+		91E233E327420981007C298E /* AngleSelectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E233E227420981007C298E /* AngleSelectorUITests.swift */; };
+		91E233E527420981007C298E /* AngleSelectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E233E427420981007C298E /* AngleSelectorUITestsLaunchTests.swift */; };
+		91E233F227420BFD007C298E /* AngleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E233F127420BFD007C298E /* AngleSelector.swift */; };
+		91E233F427423A06007C298E /* AngleSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91E233F327423A06007C298E /* AngleSelector.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91E233D527420980007C298E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E233B32742097C007C298E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E233BA2742097D007C298E;
+			remoteInfo = AngleSelector;
+		};
+		91E233DF27420981007C298E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E233B32742097C007C298E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E233BA2742097D007C298E;
+			remoteInfo = AngleSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91E233BB2742097D007C298E /* AngleSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngleSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E233BE2742097D007C298E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91E233C02742097D007C298E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91E233C22742097D007C298E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91E233C52742097D007C298E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91E233C82742097D007C298E /* AngleSelector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AngleSelector.xcdatamodel; sourceTree = "<group>"; };
+		91E233CA27420980007C298E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91E233CD27420980007C298E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91E233CF27420980007C298E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E233D427420980007C298E /* AngleSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngleSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E233D827420980007C298E /* AngleSelectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleSelectorTests.swift; sourceTree = "<group>"; };
+		91E233DE27420981007C298E /* AngleSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngleSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E233E227420981007C298E /* AngleSelectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleSelectorUITests.swift; sourceTree = "<group>"; };
+		91E233E427420981007C298E /* AngleSelectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleSelectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91E233F127420BFD007C298E /* AngleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleSelector.swift; sourceTree = "<group>"; };
+		91E233F327423A06007C298E /* AngleSelector.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AngleSelector.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91E233B82742097D007C298E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E233D127420980007C298E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E233DB27420981007C298E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91E233B22742097C007C298E = {
+			isa = PBXGroup;
+			children = (
+				91E233BD2742097D007C298E /* AngleSelector */,
+				91E233D727420980007C298E /* AngleSelectorTests */,
+				91E233E127420981007C298E /* AngleSelectorUITests */,
+				91E233BC2742097D007C298E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91E233BC2742097D007C298E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E233BB2742097D007C298E /* AngleSelector.app */,
+				91E233D427420980007C298E /* AngleSelectorTests.xctest */,
+				91E233DE27420981007C298E /* AngleSelectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91E233BD2742097D007C298E /* AngleSelector */ = {
+			isa = PBXGroup;
+			children = (
+				91E233BE2742097D007C298E /* AppDelegate.swift */,
+				91E233C02742097D007C298E /* SceneDelegate.swift */,
+				91E233C22742097D007C298E /* ViewController.swift */,
+				91E233C42742097D007C298E /* Main.storyboard */,
+				91E233F127420BFD007C298E /* AngleSelector.swift */,
+				91E233F327423A06007C298E /* AngleSelector.xib */,
+				91E233CA27420980007C298E /* Assets.xcassets */,
+				91E233CC27420980007C298E /* LaunchScreen.storyboard */,
+				91E233CF27420980007C298E /* Info.plist */,
+				91E233C72742097D007C298E /* AngleSelector.xcdatamodeld */,
+			);
+			path = AngleSelector;
+			sourceTree = "<group>";
+		};
+		91E233D727420980007C298E /* AngleSelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				91E233D827420980007C298E /* AngleSelectorTests.swift */,
+			);
+			path = AngleSelectorTests;
+			sourceTree = "<group>";
+		};
+		91E233E127420981007C298E /* AngleSelectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91E233E227420981007C298E /* AngleSelectorUITests.swift */,
+				91E233E427420981007C298E /* AngleSelectorUITestsLaunchTests.swift */,
+			);
+			path = AngleSelectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91E233BA2742097D007C298E /* AngleSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E233E827420981007C298E /* Build configuration list for PBXNativeTarget "AngleSelector" */;
+			buildPhases = (
+				91E233B72742097D007C298E /* Sources */,
+				91E233B82742097D007C298E /* Frameworks */,
+				91E233B92742097D007C298E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngleSelector;
+			productName = AngleSelector;
+			productReference = 91E233BB2742097D007C298E /* AngleSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91E233D327420980007C298E /* AngleSelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E233EB27420981007C298E /* Build configuration list for PBXNativeTarget "AngleSelectorTests" */;
+			buildPhases = (
+				91E233D027420980007C298E /* Sources */,
+				91E233D127420980007C298E /* Frameworks */,
+				91E233D227420980007C298E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E233D627420980007C298E /* PBXTargetDependency */,
+			);
+			name = AngleSelectorTests;
+			productName = AngleSelectorTests;
+			productReference = 91E233D427420980007C298E /* AngleSelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91E233DD27420981007C298E /* AngleSelectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E233EE27420981007C298E /* Build configuration list for PBXNativeTarget "AngleSelectorUITests" */;
+			buildPhases = (
+				91E233DA27420981007C298E /* Sources */,
+				91E233DB27420981007C298E /* Frameworks */,
+				91E233DC27420981007C298E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E233E027420981007C298E /* PBXTargetDependency */,
+			);
+			name = AngleSelectorUITests;
+			productName = AngleSelectorUITests;
+			productReference = 91E233DE27420981007C298E /* AngleSelectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91E233B32742097C007C298E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					91E233BA2742097D007C298E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					91E233D327420980007C298E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 91E233BA2742097D007C298E;
+					};
+					91E233DD27420981007C298E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 91E233BA2742097D007C298E;
+					};
+				};
+			};
+			buildConfigurationList = 91E233B62742097C007C298E /* Build configuration list for PBXProject "AngleSelector" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91E233B22742097C007C298E;
+			productRefGroup = 91E233BC2742097D007C298E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91E233BA2742097D007C298E /* AngleSelector */,
+				91E233D327420980007C298E /* AngleSelectorTests */,
+				91E233DD27420981007C298E /* AngleSelectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91E233B92742097D007C298E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E233CE27420980007C298E /* LaunchScreen.storyboard in Resources */,
+				91E233CB27420980007C298E /* Assets.xcassets in Resources */,
+				91E233F427423A06007C298E /* AngleSelector.xib in Resources */,
+				91E233C62742097D007C298E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E233D227420980007C298E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E233DC27420981007C298E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91E233B72742097D007C298E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E233C32742097D007C298E /* ViewController.swift in Sources */,
+				91E233F227420BFD007C298E /* AngleSelector.swift in Sources */,
+				91E233BF2742097D007C298E /* AppDelegate.swift in Sources */,
+				91E233C92742097D007C298E /* AngleSelector.xcdatamodeld in Sources */,
+				91E233C12742097D007C298E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E233D027420980007C298E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E233D927420980007C298E /* AngleSelectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E233DA27420981007C298E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E233E327420981007C298E /* AngleSelectorUITests.swift in Sources */,
+				91E233E527420981007C298E /* AngleSelectorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91E233D627420980007C298E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E233BA2742097D007C298E /* AngleSelector */;
+			targetProxy = 91E233D527420980007C298E /* PBXContainerItemProxy */;
+		};
+		91E233E027420981007C298E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E233BA2742097D007C298E /* AngleSelector */;
+			targetProxy = 91E233DF27420981007C298E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91E233C42742097D007C298E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E233C52742097D007C298E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91E233CC27420980007C298E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E233CD27420980007C298E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91E233E627420981007C298E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91E233E727420981007C298E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91E233E927420981007C298E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX4W6W4PG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AngleSelector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yishuan.AngleSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91E233EA27420981007C298E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX4W6W4PG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AngleSelector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yishuan.AngleSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91E233EC27420981007C298E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX4W6W4PG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yishuan.AngleSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngleSelector.app/AngleSelector";
+			};
+			name = Debug;
+		};
+		91E233ED27420981007C298E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX4W6W4PG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yishuan.AngleSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngleSelector.app/AngleSelector";
+			};
+			name = Release;
+		};
+		91E233EF27420981007C298E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX4W6W4PG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yishuan.AngleSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AngleSelector;
+			};
+			name = Debug;
+		};
+		91E233F027420981007C298E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX4W6W4PG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yishuan.AngleSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AngleSelector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91E233B62742097C007C298E /* Build configuration list for PBXProject "AngleSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E233E627420981007C298E /* Debug */,
+				91E233E727420981007C298E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E233E827420981007C298E /* Build configuration list for PBXNativeTarget "AngleSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E233E927420981007C298E /* Debug */,
+				91E233EA27420981007C298E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E233EB27420981007C298E /* Build configuration list for PBXNativeTarget "AngleSelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E233EC27420981007C298E /* Debug */,
+				91E233ED27420981007C298E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E233EE27420981007C298E /* Build configuration list for PBXNativeTarget "AngleSelectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E233EF27420981007C298E /* Debug */,
+				91E233F027420981007C298E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91E233C72742097D007C298E /* AngleSelector.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91E233C82742097D007C298E /* AngleSelector.xcdatamodel */,
+			);
+			currentVersion = 91E233C82742097D007C298E /* AngleSelector.xcdatamodel */;
+			path = AngleSelector.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 91E233B32742097C007C298E /* Project object */;
+}
